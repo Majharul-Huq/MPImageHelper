@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ImageHelper_Example' do
+  pod 'ImageHelper', :path => '../'
+
+  target 'ImageHelper_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

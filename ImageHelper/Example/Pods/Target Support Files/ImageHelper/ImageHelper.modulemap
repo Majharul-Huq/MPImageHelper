@@ -1,0 +1,6 @@
+framework module ImageHelper {
+  umbrella header "ImageHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
